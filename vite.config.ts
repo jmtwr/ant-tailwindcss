@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
-import * as packageJson from "./package.json";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -16,7 +15,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: "src/index.ts",
+      entry: "src/components/index.ts",
       name: "my-lib",
       fileName: (format) => `ant-tailwindcss.${format}.js`,
     },
