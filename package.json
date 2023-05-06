@@ -1,15 +1,16 @@
 {
-  "name": "easy-ui",
+  "name": "ant-tailwindcss",
+  "version": "0.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./dist/ant-tailwindcss.umd.cjs",
+  "module": "./dist/ant-tailwindcss.js",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/ant-tailwindcss.js",
+      "require": "./dist/ant-tailwindcss.umd.cjs"
     }
   },
   "scripts": {
@@ -42,5 +43,9 @@
     "vite": "^4.3.2",
     "vite-plugin-dts": "^2.3.0",
     "vite-tsconfig-paths": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmtwr/ant-tailwindcss"
   }
 }

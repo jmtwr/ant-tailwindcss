@@ -18,7 +18,7 @@ export default defineConfig({
     lib: {
       entry: "src/index.ts",
       name: "my-lib",
-      fileName: (format) => `my-lib.${format}.js`,
+      fileName: (format) => `ant-tailwindcss.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
